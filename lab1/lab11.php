@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
     
-
 <head>
     <meta charset="UTF-8">
     <title>laboratorio 1.1</title>
