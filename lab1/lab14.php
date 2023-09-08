@@ -8,23 +8,22 @@
 </head>
 
 <body>
-
     <?php
-    define('TAM', 10);
-    echo "<table border=1>";
-    $n = 1;
+        define('TAM', 10);
+        echo "<table border=1>";
+        $n = 1;
 
-    for ($n1 = 0; $n1 <= TAM; $n1++) {
-        echo "<tr>";
-        for ($n2 = 0; $n2 <= TAM; $n2++) {
-            echo "<td>", $n, "</td>";
-            echo $n = $n + 1;
+        for ($n1 = 0; $n1 <= TAM; $n1++) {
+            echo "<tr>";
+            for ($n2 = 0; $n2 <= TAM; $n2++) {
+                echo "<td>", $n, "</td>";
+                echo $n = $n + 1;
+            }
+            echo "</tr>";
         }
-        echo "</tr>";
-    }
-    echo "</table>";
-    ?>
 
+        echo "</table>";
+    ?>
 </body>
 
 </html>

@@ -9,12 +9,12 @@
 
 <body>
     <?php
-    $a = 8;
-    $b = 3;
-    $c = 3;
-    echo ($a == $b) && ($c > $b), "<br>";
-    echo ($a == $b) || ($c == $b), "<br>";
-    echo !($b <= $c), "<br>";
+        $a = 8;
+        $b = 3;
+        $c = 3;
+        echo ($a == $b) && ($c > $b), "<br>";
+        echo ($a == $b) || ($c == $b), "<br>";
+        echo !($b <= $c), "<br>";
     ?>
 </body>
 

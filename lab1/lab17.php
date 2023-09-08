@@ -9,11 +9,11 @@
 
 <body>
     <?php
-    $x = 24;
-    $pi = 3.1416;
-    $animal = "conejo";
-    $saludo = "hola caracola";
-    echo $x, "<br>", $pi, "<br>", $animal, "<br>", $saludo;
+        $x = 24;
+        $pi = 3.1416;
+        $animal = "conejo";
+        $saludo = "hola caracola";
+        echo $x, "<br>", $pi, "<br>", $animal, "<br>", $saludo;
     ?>
 </body>
 

@@ -9,13 +9,13 @@
 
 <body>
     <?php
-    print("<UL>\n");
-    $i = 1;
-    while ($i <= 10) {
-        print("<li>Elemento $i </li>\n");
-        $i++;
-    }
-    print("</UL>\n")
+        print("<UL>\n");
+        $i = 1;
+        while ($i <= 10) {
+            print("<li>Elemento $i </li>\n");
+            $i++;
+        }
+        print("</UL>\n")
     ?>
 </body>
 

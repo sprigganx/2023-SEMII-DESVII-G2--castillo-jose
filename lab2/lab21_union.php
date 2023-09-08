@@ -1,5 +1,5 @@
 <?php
-include("lab21_header.php");
+    include("lab21_header.php");
 ?>
 
 <p>
@@ -7,5 +7,5 @@ include("lab21_header.php");
 </p>
 
 <?php
-include("lab21_footer.php");
+    include("lab21_footer.php");
 ?>

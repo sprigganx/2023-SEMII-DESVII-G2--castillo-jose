@@ -9,10 +9,10 @@
 
 <body>
     <?php
-    $ini = "Hola";
-    $fin = " a todos";
-    $todo = $ini . $fin;
-    echo $todo;
+        $ini = "Hola";
+        $fin = " a todos";
+        $todo = $ini . $fin;
+        echo $todo;
     ?>
 </body>
 

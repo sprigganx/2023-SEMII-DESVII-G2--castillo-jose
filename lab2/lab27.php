@@ -9,21 +9,22 @@
 
 <body>
     <?php
-    $posicion = "arriba";
-    switch ($posicion) {
-        case "arriba":
-            echo "La variables contiene";
-            echo " el valor de arriba";
-            break;
+        $posicion = "arriba";
+        switch ($posicion) {
+            case "arriba":
+                echo "La variables contiene";
+                echo " el valor de arriba";
+                break;
 
-        case "abajo":
-            echo "La variables contiene";
-            echo " el valor de abajo";
-            break;
-        default:
-            echo "La variable contiene otro valor";
-            echo " distinto de arriba y abajo";
-    } ?>
+            case "abajo":
+                echo "La variables contiene";
+                echo " el valor de abajo";
+                break;
+            default:
+                echo "La variable contiene otro valor";
+                echo " distinto de arriba y abajo";
+        } 
+    ?>
 </body>
 
 </html>

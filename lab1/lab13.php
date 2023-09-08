@@ -9,9 +9,9 @@
 
 <body>
     <center>
-    <?php
-    echo phpinfo()
-    ?>
+        <?php
+            echo phpinfo()
+        ?>
     </center>
 </body>
 
