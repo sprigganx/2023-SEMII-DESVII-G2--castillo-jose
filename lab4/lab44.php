@@ -1,19 +1,19 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $numeros = $_POST['numeros'];
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $numeros = $_POST['numeros'];
 
-    // Verificar que todos los números sean pares
-    $numerosPares = array_filter($numeros, function ($numero) {
-        return $numero % 2 == 0;
-    });
+        // Verificar que todos los números sean pares
+        $numerosPares = array_filter($numeros, function ($numero) {
+            return $numero % 2 == 0;
+        });
 
-    if (count($numerosPares) === count($numeros)) {
-        echo "Los números ingresados pares son: " . implode(', ', $numerosPares);
-    } else {
-        // Al menos un número no es par, mostrar un mensaje de error
-        echo "Alguno de los números ingresados no es par. Por favor, inténtalo de nuevo.";
+        if (count($numerosPares) === count($numeros)) {
+            echo "Los números ingresados pares son: " . implode(', ', $numerosPares);
+        } else {
+            // Al menos un número no es par, mostrar un mensaje de error
+            echo "Alguno de los números ingresados no es par. Por favor, inténtalo de nuevo.";
+        }
     }
-}
 ?>
 
 <!DOCTYPE html>
