@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Laboratorio 5.1</title>
+</head>
+
+<body>
+
+    Ejemplo de subida de archivos al servidor web 
+    <br/><br/>
+    
+    <form action="lab52.php" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="MAX_FILE_SIZE" value="1048576"> <!-- 1 MB en bytes -->
+        <input type="file" name="nombre_archivo_cliente" accept=".jpg, .jpeg, .gif, .png"/>
+        <br /><br />
+        <input type="submit" name="enviar" value="Enviar" />
+    </form>
+
+</body>
+
+</html>
