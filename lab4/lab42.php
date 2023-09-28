@@ -1,7 +1,6 @@
 <?php
     $n = $_POST ['factorial'];
     $factorial = 1;
-    $sumFact = 0;
 
     for($n; $n >0; $n--){
         $factorial *= $n;
