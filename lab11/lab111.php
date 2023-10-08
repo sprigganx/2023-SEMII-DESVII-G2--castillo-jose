@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Laboratorio 9.1</title>
+    <title>Laboratorio 11.1</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 
