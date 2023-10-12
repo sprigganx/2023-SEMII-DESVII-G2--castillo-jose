@@ -8,6 +8,7 @@
 </head>
 
 <body>
+
     <h1>Consulta de noticias</h1>
     <?php
         require_once("class/noticias.php");
@@ -64,6 +65,7 @@
             printf("No hay noticias disponibles");
         }
     ?>
+    
 </body>
 
 </html>
