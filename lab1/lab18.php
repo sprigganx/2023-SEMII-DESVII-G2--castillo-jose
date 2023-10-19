@@ -21,5 +21,4 @@
         echo $b, "<br>";
     ?>
 </body>
-
 </html>
