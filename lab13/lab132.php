@@ -7,7 +7,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -25,7 +25,7 @@
             print("<BR/>Hola <B>".$_COOKIE["user"]."</B> gracias por visitar nuestro sitio web<BR/>");
         }else{
             ?>
-            <form name="formcookie" method="post" action="lab142.php">
+            <form name="formcookie" method="post" action="lab132.php">
             <br/>Hola, primera vez que te vemos por nuestro sitio web ¿Cómo te llamas?
             <input type="text" name="visitante">
             <input name="enviar" value="Gracias por identificarse" type="submit">

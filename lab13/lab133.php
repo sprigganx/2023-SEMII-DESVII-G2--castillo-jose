@@ -13,12 +13,12 @@
 
     <?php
         if (isset($_COOKIE["user"]))
-           echo "<H2>Bienvenido".$_COOKIE["user"]."!</h2><br/>";
+           echo "<H2>Bienvenido ".$_COOKIE["user"]."!</h2><br/>";
         else
             echo "<H2>Bienvenido invitado!</h2><br/>";
             
     ?>
-    <a href="lab131.php">...Regresar</a>
+    <a href="lab131.php">...Regresar</a>&nbsp;
     <a href="lab134.php">Continuar...</a>
 </body>
 
