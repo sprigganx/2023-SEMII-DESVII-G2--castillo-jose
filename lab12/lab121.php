@@ -12,7 +12,6 @@
 <body>
     <h1>Manejo de sesiones</h1>
     <h2>Paso 1: se crea la variable de sesion y se almacena</h2>
-
     <?php
         $var= "Ejemplo Sesiones";
         $_SESSION['var'] = $var;

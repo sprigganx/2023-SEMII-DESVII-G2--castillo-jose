@@ -15,7 +15,6 @@
 <body>
     <h1>Manejo de sesiones</h1>
     <h2>Paso 3: la variable ya ha sido destruida y su valor se ha perdido</h2>
-
     <?php
         if(isset($_SESSION['var'])){
             $var = $_SESSION['var'];
